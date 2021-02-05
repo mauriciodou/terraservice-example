@@ -2,7 +2,7 @@ data "terraform_remote_state" "service_account" {
   backend = "local"
 
   config = {
-    path = "../service_account/terraform.tfstate"
+    path = "../01-service_account/terraform.tfstate"
   }
 }
 
